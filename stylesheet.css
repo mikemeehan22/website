@@ -1,10 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&family=News+Cycle:wght@400;700&display=swap');
+
 body{
-    font-family: Arial;
+    font-family: 'News Cycle', sans-serif;
+    margin: 10px 50px;
 }
 
 h1{
     color: #21897E;
     font-size: 24px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap');
+
+blockquote{
+    text-align: center;
+    font-family: 'Concert One', cursive;
+    font-size: 48px;
+    border-top: 4px solid black;
+    border-bottom: 4px solid black;
+    margin: 10px 0;
+    padding: 10px 0;
 }
 
 a{
@@ -14,7 +29,8 @@ a{
 
 h2{
     color: #3BA99C;
-    font-size: 16px;
+    font-size: 24px;
+    font-weight: 900;
 }
 
 h3{
