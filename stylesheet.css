@@ -46,3 +46,11 @@ h3{
     color: black;
     font-size: 14px;
 }
+@media {max-width: 767px;}{
+    aside{
+        width: 100%;
+        float: none;
+        display: block;
+        margin: 0;
+    }
+}
