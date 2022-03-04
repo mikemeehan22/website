@@ -11,13 +11,10 @@ h1{
     font-size: 24px;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap');
-
 blockquote{
     text-align: center;
-    font-family: 'Concert One', cursive;
+    font-family: 'Gil Sans';
     font-size: 48px;
-    border-top: 4px solid black;
     border-bottom: 4px solid black;
     margin: 10px 0;
     padding: 10px 0;
