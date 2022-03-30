@@ -59,7 +59,12 @@ h3{
     border: 4px solid black;
 }
 
-.left {
+.right{
 float: right;
 padding: 0 10px 0 0;
+border: 3px solid black;
+}
+
+.hidden{
+    display: none;
 }
