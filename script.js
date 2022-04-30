@@ -25,6 +25,7 @@ $(document).ready(function(){
     var form_submit = $.post("https://formspree.io/f/mknyqbyo", toSubmit);
     
     form_submit.done(function(){
+      alert("Your email has been sent");
       $("#form-success").modal('show');
       $("#email").val("");
       $("#name").val("");
@@ -32,6 +33,7 @@ $(document).ready(function(){
     });
     
     form_submit.fail(function(){
+      alert("Your email was NOT sent!");
       $("#form-error").modal('show');
     });
     
